@@ -1,23 +1,70 @@
 aid: crosslayer-labs
 name: Crosslayer Labs
-description: Crosslayer Labs is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Crosslayer Labs is a network and web-infrastructure security company spun out of a
+  Princeton University security research lab. Its founding team invented Multi-Perspective Issuance
+  Corroboration (MPIC), an industry standard now required of every publicly-trusted Certificate
+  Authority, which secures the issuance of every HTTPS certificate (~8 million per day). The company
+  protects enterprises from website and API hijacks by discovering, analyzing, and continuously
+  monitoring every layer of first- and third-party network infrastructure, correlating attack signals
+  across the network stack for advanced threat detection and rapid mitigation.
 url: https://raw.githubusercontent.com/api-evangelist/crosslayer-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- long-journey-vc
+- ae-investments
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.crosslayerlabs.com/favicon.ico
 tags:
 - Company
+- Security
+- Network Security
+- Web Infrastructure
+- Certificate Authority
+- PKI
+- Threat Detection
+- Attack Surface
+- API Security
+- Cybersecurity
 apis: []
+common:
+- type: DomainSecurity
+  url: security/crosslayer-labs-domain-security.yml
+- type: Website
+  url: https://www.crosslayerlabs.com/
+- type: Blog
+  url: https://www.crosslayerlabs.com/blog
+- type: Research
+  url: https://www.crosslayerlabs.com/research
+- type: SignUp
+  url: https://calendly.com/henry-crosslayerlabs/30min
+- type: TermsOfService
+  url: https://www.crosslayerlabs.com/terms.html
+- type: PrivacyPolicy
+  url: https://www.crosslayerlabs.com/privacy.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
